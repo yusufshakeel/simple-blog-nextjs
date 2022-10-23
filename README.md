@@ -7,6 +7,8 @@ This is a simple blog project created using [Next.js](https://nextjs.org/) boots
 * [Getting Started](#getting-started)
 * [Learn more about Next.js](#learn-more-about-nextjs)
 * [Deploy on Vercel](#Deploy on Vercel)
+* [License](#license)
+* [Donate](#donate)
 
 ## Getting Started
 
@@ -39,3 +41,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## License
 
+It's free. 😃
+
+[MIT License](https://github.com/yusufshakeel/simple-blog-nextjs/blob/main/LICENSE)
+
+## Donate
+
+You can support my open source project work by [donating via PayPal](https://www.paypal.com/paypalme/yusufshakeel) 😃
