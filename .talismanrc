@@ -1,4 +1,9 @@
 fileignoreconfig:
 - filename: package-lock.json
   checksum: f1c36ffa0d231068d54f1bdeef79180090e95dc77e23f2c829bf87ebcb9b20f9
-
+- filename: .env
+  checksum: 3d13e315f0343d19fa215a947071389534de37e6db3fd839ee5b199d1a54d452
+- filename: .env.development
+  checksum: 955d07a4dcf907f3194e17ffa76284860d93eae37a5d42c8cd47af18b961246d
+- filename: .env.production
+  checksum: 5b0416ec49a0c9cd0d51e74e8acdffce874127620713d8fc572a7def4d9ff19f
