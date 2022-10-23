@@ -13,7 +13,7 @@ This is a simple blog project created using [Next.js](https://nextjs.org/) boots
   * [Set the profile image](#set-the-profile-image)
   * [Set the favicon](#set-the-favicon)
 * [Learn more about Next.js](#learn-more-about-nextjs)
-* [Deploy on Vercel](#Deploy on Vercel)
+* [Deploy on Vercel](#deploy-on-vercel)
 * [License](#license)
 * [Donate](#donate)
 
