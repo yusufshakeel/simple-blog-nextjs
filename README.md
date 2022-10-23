@@ -75,12 +75,12 @@ Open `.env.development`, `.env.production` and set the following variable.
 Example:
 
 ```shell
-NEXT_PUBLIC_HOME_PAGE_DEFAULT_BANNER="public/images/home-page-banner.jpg"
+NEXT_PUBLIC_HOME_PAGE_DEFAULT_BANNER="/images/home-page-banner.jpg"
 ```
 
 It is assumed that you have put your banner image file `home-page-banner.jpg` inside `public/images/` folder.
 
-Note! There is a default banner image `public/images/home-page-default-banner.jpg`.
+Note! There is a default banner image `/images/home-page-default-banner.jpg`.
 
 Recommendation: Try to put rectangular image of minimum dimensions `2400x800` (width x height) in pixels.
 
@@ -93,12 +93,12 @@ Open `.env.development`, `.env.production` and set the following variable.
 Example:
 
 ```shell
-NEXT_PUBLIC_DEFAULT_PROFILE_IMAGE="public/images/profile.jpg"
+NEXT_PUBLIC_DEFAULT_PROFILE_IMAGE="/images/profile.jpg"
 ```
 
 It is assumed that you have put your profile image file `profile.jpg` inside `public/images/` folder.
 
-Note! There is a default profile image `public/images/default-profile.jpg`.
+Note! There is a default profile image `/images/default-profile.jpg`.
 
 Recommendation: Try to put square image of minimum dimensions `300x300` (width x height) in pixels.
 

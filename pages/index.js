@@ -1,23 +1,30 @@
-import Head from 'next/head';
+import Image from "next/image"
 
-export default function Home() {
+export default function HomePage() {
     return (
-        <div>
-            <Head>
-                <title>{process.env.NEXT_PUBLIC_WEBSITE_DEFAULT_TITLE}</title>
-                <meta name="description" content={process.env.NEXT_PUBLIC_WEBSITE_DEFAULT_DESCRIPTION}/>
-                <link rel="icon" href="/favicon.ico"/>
-                <meta itemProp="name" content={process.env.NEXT_PUBLIC_WEBSITE_DEFAULT_TITLE}/>
-                <meta itemProp="description" content={process.env.NEXT_PUBLIC_WEBSITE_DEFAULT_DESCRIPTION}/>
-                <meta itemProp="url" content={process.env.NEXT_PUBLIC_DOMAIN_NAME}/>
-                <meta itemProp="image" content={process.env.NEXT_PUBLIC_DOMAIN_BANNER_IMAGE}/>
-            </Head>
+        <div className="container">
+            <div className="row my-3">
+                <div className="container text-center">
+                    <h1 className="display-1 text-center">
+                        Hello, World!
+                    </h1>
+                    <h3 className="display-6 text-center">
+                        I am Yusuf Shakeel.
+                    </h3>
+                    <h5 className="text-center">
+                        Welcome to my website.
+                    </h5>
+                    <Image src={process.env.NEXT_PUBLIC_DEFAULT_PROFILE_IMAGE}
+                           className="img-fluid rounded-circle img-thumbnail shadow-sm"
+                           width="200" height="200" alt="profile image"/>
+                </div>
+            </div>
 
-            <main>
-                <h1>Simple Blog Next.js</h1>
-            </main>
-
-            <footer></footer>
+            <div className="row my-3">
+                <div className="container text-center">
+                    <p>Follow me on</p>
+                </div>
+            </div>
         </div>
     )
 }
