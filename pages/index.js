@@ -11,9 +11,6 @@ export default function HomePage() {
                     <h3 className="display-6 text-center">
                         I am Yusuf Shakeel.
                     </h3>
-                    <h5 className="text-center">
-                        Welcome to my website.
-                    </h5>
                     <Image src={process.env.NEXT_PUBLIC_DEFAULT_PROFILE_IMAGE}
                            className="img-fluid rounded-circle img-thumbnail shadow-sm"
                            width="200" height="200" alt="profile image"/>
