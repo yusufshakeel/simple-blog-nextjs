@@ -18,7 +18,7 @@ export default function BlogCard(props) {
                     <h4 className="card-title">{title}</h4>
                     <p className="card-text">{formattedDate}</p>
                     <p className="card-text">{excerpt}</p>
-                    <Link href={blogLink}>Read more</Link>
+                    <Link href={blogLink}><a>Read more</a></Link>
                 </div>
             </div>
         </div>

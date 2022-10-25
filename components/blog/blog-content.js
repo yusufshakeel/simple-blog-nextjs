@@ -2,7 +2,7 @@ import {Fragment} from "react";
 import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { idea } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 import BlogHeader from "./blog-header";
 
@@ -40,7 +40,7 @@ function BlogContent(props) {
                 return (
                     // eslint-disable-next-line react/no-children-prop
                     <SyntaxHighlighter children={children}
-                        style={idea}
+                        style={tomorrow}
                         language={language}
                         showLineNumbers={true}
                         showInlineLineNumbers={true}
