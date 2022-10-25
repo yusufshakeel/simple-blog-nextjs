@@ -1,9 +1,27 @@
-"use strict";
+import BlogCard from "../../components/blog/blog-card";
+import BlogRepository from "../../repositories/blog-repository";
 
-function BlogHomePage() {
+export default function BlogHomePage(props) {
     return (
-        <h1>Hello blog index page.</h1>
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    <h3 className="display-6 text-center">All blog posts</h3>
+                </div>
+            </div>
+            <div className="row">
+                {props.blogs.map(blog => <BlogCard key={blog.slug} blog={blog}/>)}
+            </div>
+        </div>
     );
 }
 
-export default BlogHomePage;
+export function getStaticProps() {
+    const blogs = BlogRepository().getAllBlogs();
+
+    return {
+        props: {
+            blogs
+        },
+    };
+}

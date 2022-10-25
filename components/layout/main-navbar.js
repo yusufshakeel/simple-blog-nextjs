@@ -1,5 +1,3 @@
-"use strict";
-
 import Link from "next/link";
 
 function MainNavbar() {
@@ -18,7 +16,7 @@ function MainNavbar() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <Link href="/">
-                                <a className="nav-link active" aria-current="page">Home</a>
+                                <a className="nav-link" aria-current="page">Home</a>
                             </Link>
                         </li>
                         <li className="nav-item">
